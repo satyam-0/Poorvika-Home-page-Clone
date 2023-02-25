@@ -52,8 +52,8 @@ header img {
 }
 
 .container-fluid {
-    height: 20px;
-    background-color: #eb5e22;
+    /* height: 20px; */
+    /* background-color: #eb5e22; */
     vertical-align: middle;
     /* justify-content: space-between; */
     text-decoration: solid;
@@ -63,11 +63,12 @@ header img {
 
 /* Navigation */
 nav {
+    margin-top: 20px;
     background-color: #fff;
     border-bottom: 1px solid #e1e1e1;
-    height: 50px;
-    line-height: 50px;
-    /* position: relative; */
+    height: 40px;
+    line-height: 40px;
+    position: relative;
 }
 
 .menu-item {
@@ -193,6 +194,7 @@ nav {
     height: 90%;
     margin-left: 3px;
     margin-right: 3px;
+    width: 100%;
 
 }
 
